@@ -11,5 +11,10 @@
             "src":"/(.*)", 
             "use":"/"
         }
+    ],
+    {
+    "rewrites": [
+        {"source": "/(.*)", "destination": "/"}
     ]
+}
 }
